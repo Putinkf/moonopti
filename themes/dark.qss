@@ -1,0 +1,29 @@
+QWidget {
+    background: #151515;
+    color: #fff;
+    font-family: Segoe UI;
+    font-size: 14px;
+}
+
+#sidebarTitle {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 16px;
+}
+
+QPushButton#sidebarButton {
+    padding: 12px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    color: #eee;
+}
+
+QPushButton#sidebarButton:hover {
+    background: #2b2b2b;
+}
+
+QFrame#divider {
+    background: #444;
+    height: 1px;
+}
